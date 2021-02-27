@@ -1,6 +1,7 @@
 import {Directive, EventEmitter, HostBinding, HostListener, Input, Output} from '@angular/core';
 
 @Directive({
+    // tslint:disable-next-line: directive-selector
     selector: '[highlighted]',
     exportAs: 'hl'
 })
